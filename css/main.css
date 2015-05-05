@@ -60,9 +60,10 @@ a:visited {
 }
 
 a:hover {
-	background-color: rgba(0,0,0,.4);
+	background: radial-gradient(rgba(0,0,0,.6) 10%,rgba(250,250,250,.6));
 	color: white;
 	border: 2px solid black;
+	box-shadow: 0 0 3px gray;
 	transform: scale(1.2);
 	-webkit-transform: scale(1.2);
 }
