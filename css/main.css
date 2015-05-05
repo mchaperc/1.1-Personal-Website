@@ -12,27 +12,18 @@ section {
 }
 
 .name h1 {
+	position: relative;
 	margin: 0 auto;
-	font-size: 3.5em;
-	width: 30%;
-	background-color: rgba(250, 250, 250, .3);
-	box-shadow: 0 0 3px gray;
-	border-radius: 5px;
 	margin-bottom: .5em;
-	padding: .2em;
+	font-size: 3.5em;
 	font-family: 'Source Sans Pro', sans-serif;
-	transition: all .8s ease;
-}
-
-.name h1:hover {
-	background-color: rgba(250, 250, 250, .7);
-	box-shadow: 0 0 5px black;
 }
 
 .name h3 {
 	font-size: 1.5em;
 	margin-top: 1em;
 	font-family: 'Oxygen', sans-serif;
+	font-style: italic;
 }
 
 nav {
@@ -44,9 +35,9 @@ a {
 	position: relative;
 	display: inline-block;
 	text-decoration: none;
-	border: 2px solid white;
+	border: 1px solid white;
 	padding: 1.5em;
-	background-color: rgba(192,192,192,0.4);
+	background: radial-gradient(rgba(250,250,250,.3), rgba(0,0,0,.3));
 	border-radius: 100px;
 	color: black;
 	margin: 1em;
@@ -60,12 +51,14 @@ a:visited {
 }
 
 a:hover {
-	background: radial-gradient(rgba(0,0,0,.6) 10%,rgba(250,250,250,.6));
+	/*background: radial-gradient(rgba(0,0,0,.6) 10%,rgba(250,250,250,.6));*/
+	background-color: rgba(0,0,0,.3);
 	color: white;
-	border: 2px solid black;
+	border-radius: 15px;
+	border: 1px solid black;
 	box-shadow: 0 0 3px gray;
-	transform: scale(1.2);
-	-webkit-transform: scale(1.2);
+	/*transform: scale(1.2);
+	-webkit-transform: scale(1.2);*/
 }
 
 a.fa {
